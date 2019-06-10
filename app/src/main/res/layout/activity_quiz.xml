@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#835500"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/radio_group"
+            android:layout_marginBottom="16dp"
+            android:text="Here will be the question text\nHere will be the question text\nHere will be the question text"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/q1" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <RadioButton
+                android:id="@+id/radio_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 1" />
+
+            <RadioButton
+                android:id="@+id/radio_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 2" />
+
+            <RadioButton
+                android:id="@+id/radio_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 3" />
+
+            <RadioButton
+                android:id="@+id/radio_button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option 4" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/responder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:background="#0078d7"
+            android:text="RESPONDER"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</LinearLayout>

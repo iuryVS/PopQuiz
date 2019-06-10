@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "9969956444",
+    "firebase_url": "https://popquiz-3ac43.firebaseio.com",
+    "project_id": "popquiz-3ac43",
+    "storage_bucket": "popquiz-3ac43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9969956444:android:f580464e39dcd7cc",
+        "android_client_info": {
+          "package_name": "com.example.popquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9969956444-o7vhr8qvf741a0amf74fsnhds1o6res3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAeUb6MlWY0FqserB7wZi_qZfH-ZP3WBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9969956444-o7vhr8qvf741a0amf74fsnhds1o6res3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
